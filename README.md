@@ -22,7 +22,13 @@ MVVM koden benytter seg av pakken Caliburn.Micro. Trenger du å installere Calib
 Mer detaljert forklaring, inkludert skjermbilder av det grafiske grensesnittet finner du under Wiki-siden:
 https://github.com/maritskode/Oppdatert-personaldata/wiki/MVVM-strukturen
 
+# REST klient
+REST klient koden genererer et grafisk brukergrensesnitt som kobler mot en hvilken som helst Web API. Denne koden er mitt første forsøk på å lage en REST klient. Kunnskap fra denne koden kan brukes for å skape kobling mellom MVVM og Web API. Foreløpig inneholder denne katalogen et eksempel. Se mer informasjon og skjermbilde av dette grensesnittet hvor den benyttes mot dette prosjektets Web API.
+
 # Status
+Torsdag 25.oktober kl 15:30
+1) Har opprettet en REST klient som kan koble seg til Web API og hente ut navnene til personene i databasen "personliste". Men klienten er bare et enkelt brukergrensesnitt og ikke en integrert del av MVVM. Målet er å få REST klienten til å bli en integrert del av MVVM koden. 
+
 Torsdag 25.oktober kl 11:00
 1) Koblingen mellom SQL databasen og Web API fungerer med GET protokollen slik at vi får ut en oversikt over fornavn, mellomnavn og etternavn i JSON format inne i POSTMAN. Dette er dokumentert i Wiki (https://github.com/maritskode/Oppdatert-personaldata/wiki/Web-API-struktur-og-forel%C3%B8pige-resultater).
 2) Jobber videre med å få minst en egenskap, f.eks. "fornavn" videre fra Web API og frem til MVVM grensesnittet. 
