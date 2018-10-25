@@ -21,3 +21,8 @@ MVVM koden benytter seg av pakken Caliburn.Micro. Trenger du å installere Calib
 
 Mer detaljert forklaring, inkludert skjermbilder av det grafiske grensesnittet finner du under Wiki-siden:
 https://github.com/maritskode/Oppdatert-personaldata/wiki/MVVM-strukturen
+
+# Status
+Torsdag 25.oktober kl 11:00
+1) Koblingen mellom SQL databasen og Web API fungerer med GET protokollen slik at vi får ut en oversikt over fornavn, mellomnavn og etternavn i JSON format inne i POSTMAN. Dette er dokumentert i Wiki (https://github.com/maritskode/Oppdatert-personaldata/wiki/Web-API-struktur-og-forel%C3%B8pige-resultater).
+2) Jobber videre med å få minst en egenskap, f.eks. "fornavn" videre fra Web API og frem til MVVM grensesnittet. 
