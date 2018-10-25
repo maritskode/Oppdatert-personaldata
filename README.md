@@ -17,3 +17,7 @@ WeB API koden benytter seg av Dapper for å knytte seg til SQL serveren. Trenger
 Den direkte tilkoblingen til SQL serveren foregår via connectionString - for mer informasjon om ulike connectionStrings, se nettsiden: https://www.connectionstrings.com/sql-server/
 
 # MVVM
+MVVM koden benytter seg av pakken Caliburn.Micro. Trenger du å installere Caliburn.Micro? Samme prosedyre som ved å installere Dapper, men søk etter Caliburn Micro. Denne pakken vil skape koblinger mellom de ulike Models - Views - ViewModels som gjør det mye enklere å programmer MVVM.
+
+Mer detaljert forklaring, inkludert skjermbilder av det grafiske grensesnittet finner du under Wiki-siden:
+https://github.com/maritskode/Oppdatert-personaldata/wiki/MVVM-strukturen
