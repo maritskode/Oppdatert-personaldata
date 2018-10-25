@@ -23,10 +23,10 @@ Mer detaljert forklaring, inkludert skjermbilder av det grafiske grensesnittet f
 https://github.com/maritskode/Oppdatert-personaldata/wiki/MVVM-strukturen
 
 # REST klient
-REST klient koden genererer et grafisk brukergrensesnitt som kobler mot en hvilken som helst Web API. Denne koden er mitt første forsøk på å lage en REST klient. Kunnskap fra denne koden kan brukes for å skape kobling mellom MVVM og Web API. Foreløpig inneholder denne katalogen et eksempel. Se mer informasjon og skjermbilde av dette grensesnittet hvor den benyttes mot dette prosjektets Web API.
+REST klient koden genererer et grafisk brukergrensesnitt som kobler mot en hvilken som helst Web API. Denne koden er mitt første forsøk på å lage en REST klient. Kunnskap fra denne koden kan brukes for å skape kobling mellom MVVM og Web API. Foreløpig inneholder denne katalogen et eksempel. Se mer informasjon og skjermbilde av dette grensesnittet hvor den benyttes mot dette prosjektets Web API på Wikisiden: https://github.com/maritskode/Oppdatert-personaldata/wiki/REST-klient.
 
 # Status
-Torsdag 25.oktober kl 15:30
+Torsdag 25.oktober kl 15:50
 1) Har opprettet en REST klient som kan koble seg til Web API og hente ut navnene til personene i databasen "personliste". Men klienten er bare et enkelt brukergrensesnitt og ikke en integrert del av MVVM. Målet er å få REST klienten til å bli en integrert del av MVVM koden. 
 
 Torsdag 25.oktober kl 11:00
