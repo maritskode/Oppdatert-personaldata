@@ -8,4 +8,12 @@ Under katalogen "SQL" finner du 4 lagrede prosedyrer og et Excel-regneark med to
 https://github.com/maritskode/Oppdatert-personaldata/wiki/Tabellstruktur-under-SQL-databasen-%22personliste%22
 
 # Web API
-Under katalogen "Web API" finner du 
+Under katalogen "Web API" finner du en rekke klasser som styrer Web API. Når jeg opprettet Visual Studio prosjektet, laget jeg et ASP.NET Web Application (.NET Framework) prosjekt og valgte deretter WeB API og det fulgte med mange default kataloger og metoder. Disse default katalogene og metodene er ikke gjengitt her.   
+Mer detaljert forklaring finner du under Wiki-siden:
+https://github.com/maritskode/Oppdatert-personaldata/wiki/Web-API-struktur-og-forel%C3%B8pige-resultater
+
+WeB API koden benytter seg av Dapper for å knytte seg til SQL serveren. Trenger du å installere Dapper? Følg disse stegene: Åpne Visual Studio, høyreklikk på "References" i "Solution Explorer" vinduet og velg "Manage NuGet Packages". Merker området "Browse" og fyll ut søkefeltet med "Dapper". Velg "Dapper by Sam Saffron, Marc Gravell, Nick Craver, (...)" og trykk "Install" knappen. 
+
+Den direkte tilkoblingen til SQL serveren foregår via connectionString - for mer informasjon om ulike connectionStrings, se nettsiden: https://www.connectionstrings.com/sql-server/
+
+# MVVM
